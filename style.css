@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #101010;
+  font-family: jost;
+}
+.cont1 {
+  display: flex;
+  flex-direction: row;
+}
+.logo {
+  margin-left: 170px;
+  margin-top: 30px;
+}
+.jogos,
+.jog,
+.ajuda,
+.loja {
+  color: white;
+}
+.jogos {
+  margin-left: 60px;
+  margin-top: 45px;
+}
+.loja {
+  margin-left: 50px;
+  margin-top: 45px;
+}
+.ajuda {
+  margin-left: 50px;
+  margin-top: 45px;
+}
+.launch {
+  margin-left: 500px;
+  width: 193px;
+  height: 52px;
+  border-radius: 8px;
+  background-color: #fcaf17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+.search {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+.login {
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.jog {
+  width: 10px;
+  height: 5px;
+  margin-left: 10px;
+  margin-top: 52px;
+}
+.gta-img {
+  position: absolute;
+  width: 1519px;
+  height: 796px;
+  top: 112px;
+  gap: 0px;
+  opacity: 0px;
+  /* margin-left: 50PX; */
+}
+.cont2 {
+  width: 1160px;
+  height: 554.85px;
+  top: 988px;
+  left: 140px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #101010;
+  margin-top: 930px;
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+}
+.destaque {
+  font-size: 48px;
+  position: absolute;
+  color: #f6f6f6;
+}
+.pc,
+.disp,
+.cons {
+  margin-left: 20px;
+  width: 106px;
+  height: 32px;
+  top: 1008px;
+  left: 982px;
+  gap: 0px;
+  border-radius: 100px 0px 0px 0px;
+  opacity: 0px;
+  border-radius: 100px;
+  background-color: #606060;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #f6f6f6;
+}
+.disp {
+  width: 196px;
+}
+.pc {
+  margin-left: 730px;
+}
+.img1,
+.img2,
+.img3,
+.img4 {
+  width: 260px;
+  height: 315.85px;
+  top: 1100px;
+  left: 440px;
+  gap: 0px;
+  border-radius: 16px 0px 0px 0px;
+  opacity: 0px;
+  position: absolute;
+  margin-top: 70px;
+}
+.img1 {
+  margin-left: -290px;
+}
+.img2 {
+  margin-left: 15px;
+}
+.img3 {
+  margin-left: 312px;
+}
+.img4 {
+  margin-left: 610px;
+}
+.btn {
+  position: absolute;
+  width: 260px;
+  height: 63px;
+  top: 1479.85px;
+  left: 590px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  font-size: 20px;
+  background-color: #fcaf17;
+  color: #020202;
+  margin-top: 60px;
+}
+.cont3 {
+  width: 1160px;
+  height: 632px;
+  top: 1655px;
+  left: 140px;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  background-color: 101010;
+  margin-top: 120px;
+  margin-left: 180px;
+}
+.header {
+  font-size: 48px;
+  color: #f6f6f6;
+}
+.gta {
+  width: 840px;
+  height: 520px;
+  top: 1767px;
+  left: 140px;
+  gap: 0px;
+  border: 1px;
+  opacity: 0px;
+  background-color: #101010;
+  margin-top: 42px;
+  background-image: url(./GTA\ 6.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 16px;
+}
+.header1 {
+  color: white;
+  font-size: 32px;
+  margin-top: 400px;
+  position: absolute;
+  margin-left: 30px;
+}
+.title {
+  margin-top: 450px;
+  position: absolute;
+  color: #797979;
+  margin-left: 30px;
+}
+.gta2 {
+  width: 260px;
+  height: 224px;
+  top: 1767px;
+  left: 1040px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: #101010;
+  /* position: absolute; */
+  margin-left: 20px;
+  margin-top: 35px;
+  position: absolute;
+  background-image: url(./Rectangle\ 25.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.header2 {
+  color: white;
+  font-size: 13px;
+  margin-top: 150px;
+  width: 191px;
+  height: 40px;
+  top: 1917px;
+  left: 1052px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 20px;
+}
+.title2 {
+  color: #797979;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.header3 {
+  color: white;
+  font-size: 13px;
+  margin-top: 157px;
+  width: 191px;
+  height: 40px;
+  top: 1917px;
+  left: 1052px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 20px;
+}
+.title3 {
+  color: #797979;
+  font-size: 12px;
+  margin-left: 20px;
+}
+.gta3 {
+  width: 260px;
+  height: 224px;
+  top: 1767px;
+  left: 1040px;
+  gap: 0px;
+  border-radius: 16px;
+  opacity: 0px;
+  background-color: #101010;
+  /* position: absolute; */
+  margin-left: 20px;
+  margin-top: 305px;
+  position: absolute;
+  background-image: url(./Rectangle\ 24.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.cont4 {
+  position: absolute;
+  margin-top: 70px;
+  position: absolute;
+}
+.launch1 {
+  position: absolute;
+  margin-left: -1070px;
+  margin-top: 100px;
+}
+.header4 {
+  margin-top: -275px;
+  margin-left: 100px;
+  width: 326px;
+  height: 96px;
+  top: 2602.75px;
+  left: 216px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 32px;
+  color: #020202;
+}
+.launch2 {
+  margin-left: 500px;
+  margin-top: -330px;
+}
+.download {
+  margin-left: -1070px;
+  position: absolute;
+  width: 260px;
+  height: 63px;
+  border-radius: 8px;
+  background-color: #fcaf17;
+  color: #020202;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.cont5 {
+  width: 1519px;
+  height: 238px;
+  top: 2997px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #020202;
+  margin-top: 730px;
+  margin-left: -180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.logo1 {
+  margin-left: -1070px;
+}
+.t1,
+.t2,
+.t3,
+.t4 {
+  margin-left: 150px;
+  position: absolute;
+  color: #b1b1b1;
+}
+.t1 {
+  margin-left: 50px;
+  margin-top: -10px;
+}
+.t2 {
+  margin-left: 150px;
+  margin-top: -10px;
+}
+.t3 {
+  margin-left: 230px;
+  margin-top: -10px;
+}
+.t4 {
+  margin-left: 330px;
+  margin-top: -10px;
+}
+.t5 {
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 15px;
+  color: #b1b1b1;
+}
+.icons{
+    position: absolute;
+    margin-left: 830px;
+}
